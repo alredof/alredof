@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
-     	<title> oa que tal!</title>
-</head>
-<body>
-<script type="text/javascript"></script>
-    document.write(oa que tal!");
-</body>
-</html>
+var saludo="";
+
+var tiempo= new Date().getHours();
+if(tiempo < 12){
+saludo=Buenos días!";
+}
+
+function saludar(){
+
+}
